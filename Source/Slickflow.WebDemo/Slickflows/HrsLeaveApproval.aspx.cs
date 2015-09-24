@@ -71,26 +71,26 @@ namespace Slickflow.WebDemoV2._0.Slickflows
                         {
                             foreach (var role in roles)
                             {
-                                if (role.ID == LoginRoleID.ToString())
+                                if (role.ID == LoginRoleID)
                                 {
                                     switch (role.ID)
                                     {
-                                        case "2"://部门经理
+                                        case 2://部门经理
                                             this.txtDepmanagerRemark.Disabled = false;
                                             hiddenPerformField.Value = "DepManager";
                                             break;
 
-                                        case "4"://主管总监
+                                        case 4://主管总监
                                             this.txtDirectorRemark.Disabled = false;
                                             hiddenPerformField.Value = "Director";
                                             break;
 
-                                        case "7"://副总经理
+                                        case 7://副总经理
                                             this.txtDeputyGeneralRemark.Disabled = false;
                                             hiddenPerformField.Value = "Deputy";
                                             break;
 
-                                        case "8"://总经理
+                                        case 8://总经理
                                             this.txtGeneralManagerRemark.Disabled = false;
                                             hiddenPerformField.Value = "General";
                                             break;
